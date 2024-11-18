@@ -48,3 +48,4 @@ de las personas que respondieron
 ![alt text](image-7.png)
 # PESTAÑA DE INICIO (LANDING PAGE)
 
+     direccion local de mi landing  ->  http://localhost:3000
