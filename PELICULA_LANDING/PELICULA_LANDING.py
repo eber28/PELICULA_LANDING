@@ -60,8 +60,7 @@ def index() -> rx.Component:
                  style={"width":"400px", 
                         "height": "40px", 
                         "fontSize": "20px",
-                        "backgroundColor": "black",
-                        "color": "black"} 
+                        "backgroundColor": "black",} 
                 
             ),
             rx.button("EMPEZAR",
