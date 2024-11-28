@@ -2,8 +2,8 @@ import reflex as rx
 
 def index() -> rx.Component:
     return rx.container(
-
-        rx.heading("PELICULAS YA",
+        rx.heading( 
+        "PELICULAS YA",
         font_family="Netflix, sans-serif",
         color="red",
         size="50",
@@ -74,6 +74,20 @@ def index() -> rx.Component:
                 gap="0",
             
             ),
+
+            rx.vstack(
+                 rx.link(
+                     rx.icon("facebook",color="red")
+                     ),
+                 rx.link(
+                    rx.icon("instagram",color="red")
+                    ),
+                justify="flex-start",
+                position="absolute",
+                bottom="10px",
+                left="10px"
+            ),
+    
             justify="center",
             align="center",
             position="absolute",
